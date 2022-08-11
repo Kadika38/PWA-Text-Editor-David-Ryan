@@ -1,7 +1,7 @@
 {
   "name": "text-editor",
   "version": "1.0.0",
-  "description": "",
+  "description": "The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
@@ -21,5 +21,13 @@
   "devDependencies": {
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kadika38/PWA-Text-Editor-David-Ryan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kadika38/PWA-Text-Editor-David-Ryan/issues"
+  },
+  "homepage": "https://github.com/Kadika38/PWA-Text-Editor-David-Ryan#readme"
 }
